@@ -7,6 +7,7 @@
 body{
     overflow-x: hidden;
 }
+
 header{
     background-color:antiquewhite;
     margin: 0 auto;
@@ -39,7 +40,7 @@ header{
 .btn-1{
      border-radius: 10px;
      border: none;
-     background-color: darkgreen;
+     background-color:tomato;
      color: azure;
      padding: 10px;
      margin-top: 10px;
@@ -51,7 +52,7 @@ header{
     gap: 20px;
     font-size: 30px;
     text-decoration: none;
-    color: green;
+    color: rebeccapurple;
     cursor: pointer;
     display: flex;
     text-align: center;
@@ -71,9 +72,20 @@ header{
     padding: 5px;
 }
 
+
 @media  screen  and ( max-width:576px){
 
 
+
+    body{
+        margin: 0 auto;
+    }
+
+    .head-main h1{
+    font-size: 35px;
+    color:purple;
+}
+    
     .header-flex{
     flex-direction: column;
     gap: 50px;
@@ -247,7 +259,7 @@ text-align: center;
  button{
 border-radius: 10px;
      border: none;
-     background-color: darkgreen;
+     background-color: tomato;
      color: azure;
      padding: 10px;
      margin-top: 10px;
@@ -263,7 +275,7 @@ border-radius: 10px;
     text-align: center;
     border: none;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color:rgba(244, 165, 96, 0.135);
     margin: 0 auto;
     padding: 20px;
     gap: 30px;
@@ -362,9 +374,6 @@ h1{
    
 
 }
-
-
-
 
 
     .display-flex{
@@ -500,16 +509,50 @@ h1{
     font-size: 20px;
 
 }
+  }
 
+ 
+footer{
+    margin: 0 auto;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    padding: 15px;
+}
 
+  .footer-flex{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
 
+  }
+  .footer-flex h1{
+       font-size: 25px;
+       color: purple;
+  }
+  .footer-flex p{
+    font-size: 20px;
+  }
+  .a-link img{
+ margin-top: 12px;
+   
+    height: 60px;
+    width: 80px;
+  }
+  .a-link{
+    gap: 10px;
+  }
+  
+  @media screen  and (max-width:576px){
+     .footer-flex{
+    margin-top: 40px;
+    flex-direction: column;
+   gap: 10px;
+    text-align: center;
+    justify-content: center;
 
-
-
-
-
-
-
-
-
+  }
+    
   }
